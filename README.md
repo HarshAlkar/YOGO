@@ -34,8 +34,12 @@ The app currently features a **Cat-Cow Flow** session, a fundamental yoga sequen
 - **UI**: Material Design 3 with custom theming
 
 ## 📱 Screenshots
+<img width="342" height="723" alt="image" src="https://github.com/user-attachments/assets/0db1909b-8cb5-4dc2-bb18-5ce6b5d79fb4" />
+<img width="342" height="723" alt="image" src="https://github.com/user-attachments/assets/37bab0c6-8707-41c6-a411-fcf18adb85fd" />
+<img width="342" height="723" alt="image" src="https://github.com/user-attachments/assets/5c9d9355-786a-4579-ae5a-104414c76856" />
 
-*[Screenshots will be added here]*
+
+
 
 ## 🚀 Getting Started
 
@@ -47,6 +51,22 @@ The app currently features a **Cat-Cow Flow** session, a fundamental yoga sequen
 - Git
 
 ### Installation
+
+#### Option 1: Download Pre-built APK
+
+**📱 Ready to Install APK**
+- **File**: `app-release.apk` (24.2MB)
+- **Location**: `build/app/outputs/flutter-apk/app-release.apk`
+- **Status**: ✅ Built and ready for installation
+- **Compatibility**: Android 5.0+ (API level 21+)
+
+**Download Instructions:**
+1. Navigate to the `build/app/outputs/flutter-apk/` directory
+2. Copy `app-release.apk` to your Android device
+3. Enable "Install from Unknown Sources" in your device settings
+4. Install the APK file
+
+#### Option 2: Build from Source
 
 1. **Clone the repository**
    ```bash
@@ -70,6 +90,11 @@ The app currently features a **Cat-Cow Flow** session, a fundamental yoga sequen
 ```bash
 flutter build apk --release
 ```
+
+**Build Output:**
+- **APK Location**: `build/app/outputs/flutter-apk/app-release.apk`
+- **File Size**: ~24.2MB
+- **Build Time**: ~3 minutes
 
 **iOS:**
 ```bash

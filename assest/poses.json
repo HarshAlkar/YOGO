@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "id": "asana_cat_cow_v1",
+    "title": "Cat-Cow Flow",
+    "category": "spinal_mobility",
+    "defaultLoopCount": 4,
+    "tempo": "slow"
+  },
+  "assets": {
+    "images": {
+      "base": "Copy of Base.png",
+      "cat": "Copy of Cat.png",
+      "cow": "Copy of Cow.png"
+    },
+    "audio": {
+      "intro": "Copy of CatCOwIntro.mp3",
+      "loop": "Copy of CatCOwLoop.mp3",
+      "outro": "Copy of CatCowOutro.mp3"
+    }
+  },
+  "sequence": [
+    {
+      "type": "segment",
+      "name": "intro",
+      "audioRef": "intro",
+      "durationSec": 23,
+      "script": [
+        {
+          "text": "Come to all fours with your hands under your shoulders and knees under your hips",
+          "startSec": 0,
+          "endSec": 7,
+          "imageRef": "base"
+        },
+        {
+          "text": "Take a deep breath and prepare for the Cat-Cow flow",
+          "startSec": 7,
+          "endSec": 15,
+          "imageRef": "base"
+        },
+        {
+          "text": "We'll begin with the Cow pose, arching your back and lifting your head",
+          "startSec": 15,
+          "endSec": 23,
+          "imageRef": "cow"
+        }
+      ]
+    },
+    {
+      "type": "loop",
+      "name": "cat_cow_flow",
+      "audioRef": "loop",
+      "durationSec": 45,
+      "script": [
+        {
+          "text": "Inhale and arch your back, lifting your head and tailbone - Cow pose",
+          "startSec": 0,
+          "endSec": 8,
+          "imageRef": "cow"
+        },
+        {
+          "text": "Exhale and round your back, tucking your chin and tailbone - Cat pose",
+          "startSec": 8,
+          "endSec": 16,
+          "imageRef": "cat"
+        },
+        {
+          "text": "Continue flowing with your breath, moving smoothly between poses",
+          "startSec": 16,
+          "endSec": 30,
+          "imageRef": "base"
+        },
+        {
+          "text": "Feel the gentle stretch in your spine with each movement",
+          "startSec": 30,
+          "endSec": 45,
+          "imageRef": "base"
+        }
+      ]
+    },
+    {
+      "type": "segment",
+      "name": "outro",
+      "audioRef": "outro",
+      "durationSec": 15,
+      "script": [
+        {
+          "text": "Slowly come to a neutral position on all fours",
+          "startSec": 0,
+          "endSec": 5,
+          "imageRef": "base"
+        },
+        {
+          "text": "Take a moment to feel the effects of your practice",
+          "startSec": 5,
+          "endSec": 10,
+          "imageRef": "base"
+        },
+        {
+          "text": "Thank you for practicing with us today",
+          "startSec": 10,
+          "endSec": 15,
+          "imageRef": "base"
+        }
+      ]
+    }
+  ]
+}
